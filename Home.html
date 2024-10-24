@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-s">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucius Hu - PORTFOLIO - home</title>
+        <meta name = "description" content="A first web page.">
+        <meta name = "keywords" content="HTML, CSS, webpage">
+        <meta name = "author" content="Lucius Hu">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <nav>
+                <ul class="menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Arch Projects</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Computational Design</a>
+                        <ol class="dropdown-content">
+                            <li><a href="#">The Coral (2020)</a></li>
+                            <li><a href="#">The Nocturne (2024)</a></li>
+                            <li><a href="#">Marception Competition 2024</a></li>
+                            <li><a href="#">Facade Test Collection (2024)</a></li>
+                            <li><a href="TPMS.html">Triply Periodic Minimal Surface(TPMS) & Data Center</a></li>
+                        </ol>
+                    </li>
+                    <li class="dropdown"><a href="#">Game</a></li>
+                    <li class="dropdown"><a href="#">Research</a></li>
+                    <li class="dropdown"><a href="#">Interests</a></li>
+                </ul>
+            </nav>
+            <section class="about-section">
+                <div class="background-image"></div>
+                <div class="about-content">
+                    <div class="left-column">
+                        <img src="profile_picture.jpg" alt="Lucius Photo" class="profile-image">
+                        <div class="contact-info">
+                            <h3>CONTACT ME:</h3>
+                            <p>Email: rhux15@pratt.edu</p>
+                            <p>TEL: (+1) 917-592-6219</p>
+                            <p>WeChat: Lucius990617</p>
+                            <p>Online Portfolio <a href="https://pratt.digication.com/luciush_portfolio"><u> HERE</u></a></p>
+                            <br>
+                            <h3>CHECK MY:</h3>
+                            <p><a href="https://drive.google.com/file/d/174yGxqGZq8xzb8TuQNYFe7rdghBtVBOC/view" target="_blank">Resume</a></p>
+                            <p><a href="https://drive.google.com/file/d/1ZxfQvWa_GKnjMvttnzRom9jdzQy2DOBb/view" target="_blank">Portfolio (PDF version)</a></p>
+                            <p><a href="https://www.linkedin.com/in/luciush0617/" target="_blank">LinkedIn Page</a></p>
+                        </div>
+                    </div>
+                    <div class="right-column">
+                        <h1>About Lucius HU...</h1>
+                        <br>
+                        <p><strong>Welcome to my place! Explore the menu and learn more about me!</strong></p>
+                        <p><i>(I put parts of my personal statement here for now)</i></p>
+                        <p><i><strong>please visit the 5th project in the "computational design" section in the navigation bar</strong></i></p>
+                        <br>
+                        <p>My name is Lucius Hu, currently a third year graduate student in Master of Architecture Program at Pratt Institite. I am also working as a Teacher Assistant for Pratt Graduate Architectural structure courses. My current research at Pratt focuses on TPMS structures as a basic modular building frame in data center buildings. I consider myself a curious and energetic individual with a strong interest in architecture research. My career goal is to become a researcher working in aninstitution or university, and keep on inspiring and contributing to the field of architecture and urbanism with scientific research and interaction with the latest technology and materials. </p>
+                        <p>My earliest interest in architecture started from Chinese traditional wooden buildings, and then gradually developed into computational design, digital fabrication and urban planning as my exploration broadened. My undergraduate explorations at Tsinghua University were mostly focused on the interaction between architecture and other fields, such as psychology and game design. I was interested in human emotion, perception and interaction with space and environment, which led me to a minor in psychology, as well as capstone design project focusing on a depression healing center. These experiences equipped me with abilities in research, running experiments and data analysis. I also found a potential extension for architecture in XR and game design, which led me to my first job after graduation as a game designer. Working as a game designer brought me valuable enperience in programming with Unity and C#, and also introduced me to a computational mindset. </p>
+                        <p>After I came to Pratt, my interests gradually moved to computational design (CD), digital fabrication and sustainability??. I adore Frei Otto’s projects and Antonio Gaudi's 3D graphical static design (3DGSD) method in Basílica de la Sagrada Família so much, which led me to more related CD research. The work done by Block Research Group in ETH on structure optimization, addictive manufacture (AM) and computational design is some of the most impressive to me. </p>
+                        <p>My current project is focused on the TPMS structures as basic building frame for data center buildings to achieve higher energy efficiency and modular offsite pefabrication to reduce carbon emmision. I also explored responsible facade systems that react to environmental parameters like light, rain and wind. Additionally, I am also exploring the urban environment with GIS tools and data on site conditions & resources, climate, thermal conditions and sustainability, which enables a global perspective for future design and research. I am currently working on research about the urban heat island phenomenon (UHI), pedestrian thermal comfort and potential effective factors such as building density and height in New York City. Earlier this year, being aware of the Hudson River water pollution, my project Oystopia was an attempt to optimize water quality with oyster filtration, which also aim to improve energy efficiency and recylce via combining oyster farming with composting, greenhouse and market in a building complex.</p>
+                        <br>
+                        <h3>Interested Topics:</h3>
+                        <table>
+                            <tr>   
+                                <td>Computational Design（CD）</td>
+                                <td>Biomimicry</td>
+                                <td>Biomaterial</td>
+                                <td>Sustainability</td>
+                            </tr>
+                            <tr>
+                                <td>Generative Design</td>
+                                <td>Digital Fabrication</td>
+                                <td>Robotic Fabrication</td>
+                                <td>Human-Computer Interaction (HCI)</td>
+                               
+                            </tr>
+                        </table>
+                        <br><br><br>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <p>Copyright &copy; 1999-<span id="year"></span> LuciusHU. All Rights Researved <span id="year"></span></p>
+            </footer>
+            
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+    </body>
+</html>
